@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4DC05DE-61BA-4EC7-9D7A-F412D1FE0621</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Assimp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6FD6EF7-C8B2-4B17-9EE4-F093A457F5FE</key>
+		<string>https://github.com/ikillbombs/assimp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Assimp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6FD6EF7-C8B2-4B17-9EE4-F093A457F5FE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ikillbombs/assimp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6FD6EF7-C8B2-4B17-9EE4-F093A457F5FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6FD6EF7-C8B2-4B17-9EE4-F093A457F5FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>assimp-retry</string>
+		</dict>
+	</array>
+</dict>
+</plist>

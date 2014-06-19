@@ -14,9 +14,9 @@ IOS_SDK_DEVICE=
 XCODE_ROOT_DIR=/Applications/Xcode.app/Contents
 TOOLCHAIN=$XCODE_ROOT_DIR//Developer/Toolchains/XcodeDefault.xctoolchain
 
-BUILD_ARCHS_DEVICE="armv7 armv7s arm64"
-BUILD_ARCHS_SIMULATOR="i386 x86_64"
-BUILD_ARCHS_ALL=(armv7 armv7s arm64 i386 x86_64)
+BUILD_ARCHS_DEVICE="armv7 armv7s"
+BUILD_ARCHS_SIMULATOR="i386"
+BUILD_ARCHS_ALL=(armv7 armv7s i386)
 
 CPP_DEV_TARGET_LIST=(miphoneos-version-min mios-simulator-version-min)
 CPP_DEV_TARGET=
@@ -50,7 +50,7 @@ build_arch()
 
     rm CMakeCache.txt
 
-    cmake  -G 'Unix Makefiles' -DCMAKE_TOOLCHAIN_FILE=./port/iOS/IPHONEOS_$(echo $1 | tr '[:lower:]' '[:upper:]')_TOOLCHAIN.cmake -DENABLE_BOOST_WORKAROUND=ON -DASSIMP_BUILD_STATIC_LIB=ON
+    cmake  -G 'Xcode' -DCMAKE_TOOLCHAIN_FILE=./port/iOS/IPHONEOS_$(echo $1 | tr '[:lower:]' '[:upper:]')_TOOLCHAIN.cmake -DENABLE_BOOST_WORKAROUND=ON -DASSIMP_BUILD_STATIC_LIB=ON
 
     echo "[!] Building $1 library"
 

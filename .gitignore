@@ -32,3 +32,10 @@ test/results
 
 # Python
 __pycache__
+
+
+#assimp
+code/Assimp.build/
+Assimp.build/*
+Assimp.xcodeproj/xcuserdata/*
+Assimp.xcodeproj/project.xcworkspace/xcuserdata/*
